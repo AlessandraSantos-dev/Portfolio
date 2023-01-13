@@ -1,3 +1,8 @@
+:root {
+  --branding-color: #eaeaea;
+  --secondary-color: #a30049;
+}
+
 h1,
 h2,
 h3 {
@@ -6,4 +11,23 @@ h3 {
 }
 h1 {
   text-align: center;
+}
+
+.hero {
+  padding: 160px 20px;
+  text-align: center;
+  background-color: var(--branding-color);
+}
+.hero h1 {
+  font-family: spectral;
+  font-size: 76px;
+}
+
+.btn-branding {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 20px;
+  line-height: 28px;
+  padding: 12px 18px;
 }
