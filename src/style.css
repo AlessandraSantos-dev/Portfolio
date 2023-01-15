@@ -52,9 +52,20 @@ p {
   line-height: 28px;
   padding: 12px 18px;
 }
-@media (max-width: 900px) {
-  .btn-branding-outline {
-    display: block;
-    margin: 0 auto;
+@media (max-width: 920px) {
+  h1 {
+    line-height: 1.2;
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .hero {
+    padding: 40px 0;
+    font-size: 35px;
   }
 }
