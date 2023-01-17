@@ -33,18 +33,22 @@ p {
   font-family: spectral;
   font-size: 76px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
   text-align: center;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 58px;
   line-height: 75px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
 }
-.about-section-content {
+.content-container h3 {
+  font-size: 25px;
+  line-height: 1.5;
+}
+.content-inner {
   padding: 30px;
 }
 
