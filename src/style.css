@@ -38,7 +38,8 @@ p {
   text-align: center;
 }
 .content-container h1 {
-  font-size: 58px;
+  font-family: spectral;
+  font-size: 70px;
   line-height: 75px;
 }
 .content-container h2 {
@@ -49,6 +50,8 @@ p {
   line-height: 1.5;
 }
 .content-inner {
+  font-family: spectral;
+
   padding: 30px;
 }
 
